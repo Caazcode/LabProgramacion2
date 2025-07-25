@@ -20,7 +20,7 @@ public class MainApp extends JFrame {
     private PalindromoAir sistema = new PalindromoAir();
 
     public MainApp() {
-        setTitle("Palindromo Airlines - INICIO");
+        setTitle("Palindromo Airlines - Paginia Incial");
         setSize(700, 500);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
