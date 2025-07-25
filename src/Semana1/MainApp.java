@@ -86,10 +86,10 @@ public class MainApp extends JFrame {
                 break;
             case "Ver Ingresos":
                 double ingresos = sistema.income(0);
-                areaMensajes.setText("💰 Ingresos totales: $" + String.format("%.2f", ingresos));
+                areaMensajes.setText("Ingresos totales: $" + String.format("%.2f", ingresos));
                 break;
             case "Imprimir Pasajeros":
-                areaMensajes.setText(""); // Limpiar antes de imprimir
+                areaMensajes.setText(""); 
                 sistema.printPassengers(0, areaMensajes);
                 break;
             case "Buscar Pasajero":
